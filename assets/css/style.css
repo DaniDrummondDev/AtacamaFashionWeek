@@ -1,0 +1,995 @@
+@charset "8-utf";
+
+.display_Oculto{
+  display: none!important;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px!important;
+  background-image: url("../graphics/bg_paginaLuz.jpg");
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  background-repeat: repeat;
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+}
+
+a{
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-color: transparent;
+}
+
+/*Fonts*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6em;
+}
+
+@font-face {
+  font-family: "PP Regular";
+  src: url("../fonts/PPSupplySans-Regular.woff2") format("woff2"),
+    url("../fonts/PPSupplySans-Regular.woff") format("woff"),
+    url("../fonts/PPSupplySans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Mono";
+  src: url("../fonts/PPSupplyMono-Ultralight.woff2") format("woff2"),
+    url("../fonts/PPSupplyMono-Ultralight.woff") format("woff"),
+    url("../fonts/PPSupplyMono-Ultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Ultralight";
+  src: url("../fonts/PPSupplySans-Ultralight.woff2") format("woff2"),
+    url("../fonts/PPSupplySans-Ultralight.woff") format("woff"),
+    url("../fonts/PPSupplySans-Ultralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+.ppRegular {
+  font-family: "PP Regular";
+}
+
+.ppMono {
+  font-family: "PP Mono";
+}
+
+.ppUltralight {
+  font-family: "PP Ultralight";
+}
+
+.fontTam1 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.fontTam2 {
+  font-size: 2.13rem;
+}
+
+.fontTam3 {
+  font-size: 1.7rem;
+}
+
+.fontTam4 {
+  font-size: 1.25rem;
+}
+
+.fontTam5 {
+  font-size: 1rem;
+}
+
+.fontTam6 {
+  font-size: 0.9rem;
+}
+
+.fontTam7 {
+  font-size: 0.8rem;
+}
+
+.fontPrice {
+  font-size: 3.5rem;
+}
+
+.fontCarouselLooks1 {
+  font-size: 6.5rem;
+}
+
+.fontCarouselLooks2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.lineHeight09{
+  line-height: 0.9rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.spaceletter1 {
+  letter-spacing: 0.5rem;
+}
+
+.spaceletter2 {
+  letter-spacing: 0.3rem;
+}
+
+.spaceletter3 {
+  letter-spacing: 0.08rem;
+}
+
+/*Paleta de Cores*/
+
+:root {
+  --Black: #000000;
+  --White: #ffffff;
+  --Transparent: transparent !important;
+  --Laranja: #e15e23;
+}
+
+.bgdarkBrown {
+  background-color: var(--darkBrown);
+}
+
+.bgBrown {
+  background-color: var(--Brown);
+}
+
+.bglightBrown {
+  background-color: var(--lightBrown);
+}
+
+.bgBlack {
+  background-color: var(--Black);
+}
+
+.bgWhite {
+  background-color: var(--White);
+}
+
+.bgTransparent {
+  background-color: var(--Transparent);
+}
+
+.bgLaranja {
+  background-color: var(--Laranja);
+}
+
+.colordarkBrown {
+  color: var(--darkBrown);
+}
+
+.colorBrown {
+  color: var(--Brown);
+}
+
+.colorlightBrown {
+  color: var(--lightBrown);
+}
+
+.colorBlack {
+  color: var(--Black);
+}
+
+.colorWhite {
+  color: var(--White);
+}
+
+.colorTransparent {
+  color: var(--Transparent);
+}
+
+.colorLaranja {
+  color: var(--Laranja) !important;
+}
+
+/*Geral*/
+
+a {
+  text-decoration: none !important;
+}
+
+.w_perso15{
+  width: 15%;
+}
+
+.w_container {
+  width: 67%;
+}
+
+.w_perso6 {
+  width: 6%;
+}
+
+.w_perso25 {
+  width: 25%;
+}
+
+.w_perso50 {
+  width: 50%;
+}
+
+.w_perso65 {
+  width: 65%;
+}
+
+.w_perso75 {
+  width: 75%;
+}
+
+.w_perso90{
+  width: 90%;
+}
+
+.w_perso94{
+  width: 94%;
+}
+
+.p-10 {
+  padding: 6rem;
+}
+
+.space30 {
+  height: 30px;
+  width: 100%;
+}
+
+.space60 {
+  height: 60px;
+  width: 100%;
+}
+
+.space80 {
+  height: 80px;
+  width: 100%;
+}
+
+.space90 {
+  height: 90px;
+  width: 100%;
+}
+
+.space105 {
+  height: 105px;
+  width: 100%;
+}
+
+.space130 {
+  height: 130px;
+  width: 100%;
+}
+
+.space150 {
+  height: 150px;
+  width: 100%;
+}
+
+/*Menu*/
+
+.bgMenu {
+  background-color: #00000026 !important;
+}
+
+.borderMenu1 {
+  border-bottom: 1px solid var(--Laranja) !important;
+}
+
+.borderMenu2 {
+  border-right: 1px solid var(--Transparent) !important;
+}
+
+.borderMenu3 {
+  border: 0px !important;
+}
+
+.navbar-toggler {
+  border: 0px !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../graphics/hamb.svg") !important;
+}
+
+.navbar-toggler-icon-close {
+  background-image: url("../graphics/hambClose.svg") !important;
+}
+
+.imgBrand {
+  width: 60px;
+}
+
+/*Intro*/
+
+.AAAA_Logo1 {
+  width: 55px;
+}
+
+/*Letter1*/
+
+/*.letter1 {
+  background-image: url(../graphics/int.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 87px;
+  width: 100vw;
+}*/
+
+.posLetter1{
+  overflow: hidden;
+  width: 100%;
+}
+
+.letter1{
+  position: relative;
+  right: 0;
+  background-image: url(../graphics/int.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 87px;
+  width: 100vw;
+  animation: anima 4s linear infinite;
+}
+
+.letter1::after{
+  content:"";
+  position:absolute;
+  left:100vw;
+  background-image: url(../graphics/int.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 87px;
+  width: 100vw;
+}
+
+@keyframes anima{
+  from {right: 0}
+  to {right: 100%}
+}
+
+/*Container Geral*/
+
+.top {
+  top: 0px;
+}
+
+.btn-close:focus,
+.btn-close:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0px !important;
+}
+
+/*Media*/
+
+.next_icon_C {
+  background-image: url("../graphics/seta_red_right.svg") !important;
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+.prev_icon_C {
+  background-image: url("../graphics/seta_red_left.svg") !important;
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+.thumb1{
+  width: 57%;
+}
+
+.thumb2{
+  width: 43%;
+}
+
+.c1_m_1{
+  background-image: url("../graphics/c1_m_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+:hover.c1_m_1{
+background-image: url("../graphics/c1_m_1_over.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+/*PodCast*/
+
+.btnPod {
+  width: 10% !important;
+  top: 13% !important;
+}
+
+.next_icon_circ_A {
+  background-image: url(../graphics/seta_red_right.svg) !important;
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+.prev_icon_circ_A {
+  background-image: url(../graphics/seta_red_left.svg) !important;
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+.topPod {
+  top: -1px;
+}
+
+.iconsPostalUse {
+  height: 67px;
+}
+
+.borderRadius {
+  border: 1px solid var(--Laranja);
+  border-radius: 10px;
+}
+
+.borderLaranja {
+  border: 1px solid var(--Laranja);
+}
+
+/*Table PodCast*/
+
+.display-show1 {
+  display: block;
+}
+
+.display-show2 {
+  display: block;
+}
+
+.display-show3 {
+  display: block;
+}
+
+.display-show4{
+ display: none;
+}
+
+.iconsPodcast {
+  height: 20px;
+  width: 20px;
+}
+
+.btnPlayPod{
+  background-image: url("../graphics/btn_play.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+}
+
+.btnPausePod{
+  background-image: url("../graphics/btn_pause.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+}
+
+.w_table {
+  width: 22%;
+}
+
+.text_3P {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.borderRadiusRight {
+  border-right: 1px solid var(--Laranja);
+}
+
+.btn_Pod {
+  background-color: var(--Transparent);
+  border: 0px;
+}
+
+.reverso {
+  flex-direction: row-reverse;
+}
+
+.w_castPerso{
+  width: 134px;
+}
+
+.rolagem {
+  height: 400px;
+  width: 100%;
+  overflow-y: scroll;
+  direction: rtl;
+}
+
+/* Estilização para navegadores baseados em WebKit (Chrome, Safari) */
+.rolagem::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+.rolagem::-webkit-scrollbar-thumb {
+  background-color: var(--Transparent); /* Cor da área deslizante */
+  background-image: url("../graphics/box_Rolagem.svg"); /* Imagem da área deslizante */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rolagem::-webkit-scrollbar-track {
+  background-color: var(--Transparent); /* Cor de fundo da trilha */
+  background-image: url("../graphics/barra_laranja.svg"); /* Imagem da trilha */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Estilização para navegadores baseados em Gecko (Firefox) */
+.rolagem.scrollbar {
+  scrollbar-width: thin; /* Largura da barra de rolagem */
+  scrollbar-color: var(--Transparent); /* Cor da área deslizante e cor de fundo */
+}
+
+.rolagem.scrollbar-thumb {
+  background-color: var(--Transparent); /* Cor da área deslizante */
+  background-image: url("../graphics/box_Rolagem.svg"); /* Imagem da área deslizante */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rolagem.scrollbar-track {
+  background-color: var(--Transparent); /* Cor de fundo da trilha */
+  background-image: url("../graphics/barra_laranja.svg"); /* Imagem da trilha */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Atacama*/
+
+.posLetter2{
+  overflow: hidden;
+  width: 100%;
+}
+
+/*.letter2 {
+  background-image: url(../graphics/atacama_week.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 66px;
+  width: 100vw;
+}*/
+
+.letter2{
+  position: relative;
+  right: 0;
+  background-image: url(../graphics/atacama_week.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 66px;
+  width: 100vw;
+  animation: anima 8s linear infinite;
+}
+
+.letter2::after{
+  content:"";
+  position:absolute;
+  left:100vw;
+  background-image: url(../graphics/atacama_week.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 66px;
+  width: 100vw;
+}
+
+/*Carousel Terra*/
+
+.bgCarousellTerra {
+  background-image: url("../graphics/bgCarousellTerra.png");
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: contain;
+}
+
+.borderRadiusTerra {
+  border: 1px solid var(--Laranja);
+  border-radius: 40px;
+}
+
+.next_icon_A {
+  background-image: url(../graphics/seta_right.svg) !important;
+  width: 5rem !important;
+  height: 10rem !important;
+}
+
+.prev_icon_A {
+  background-image: url(../graphics/seta_left.svg) !important;
+  width: 5rem !important;
+  height: 10rem !important;
+}
+
+/*CardsRoupa*/
+
+.carouselEstilizado {
+  width: 68%;
+}
+
+.btnCarouselEstilizado {
+  border: 0px;
+}
+
+.imgBtncarouselEstilizado {
+  width: 6rem;
+  height: 6rem;
+}
+
+.w_btnCarousel {
+  width: 5%;
+}
+
+.imgRoupa{
+  width: 98%!important;
+}
+
+.traco {
+  width: 18%;
+}
+
+.iconsRoupas {
+  width: 75%;
+}
+
+.cardsRoupa {
+  width: 364px;
+}
+
+.iconsCards {
+  width: 20px !important;
+}
+
+.borderRadiusCard{
+  border: 1px solid var(--Laranja);
+  border-radius: 5px;
+
+}
+
+.tracoCard {
+  width: 50%;
+}
+
+/*Txts*/
+.dot{
+  border-bottom: 1px dotted var(--Laranja);
+}
+
+/*Carousel Looks*/
+
+.next_icon_B {
+  background-image: url(../graphics/seta_right_B.svg) !important;
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+.prev_icon_B {
+  background-image: url(../graphics/seta_left_B.svg) !important;
+  width: 6rem !important;
+  height: 6rem !important;
+}
+
+.posNext {
+  right: 15% !important;
+  top: -7%;
+}
+
+.posPrev {
+  left: 15% !important;
+  top: -7%;
+}
+
+.labelLooks {
+  bottom: -15px !important;
+}
+
+.w_CarousellLooks {
+  width: 25%;
+}
+
+.imgCarousell {
+  width: 44%;
+}
+
+.borderRadiusLooksCarousel {
+  border: 1px solid var(--Laranja);
+  border-radius: 40px;
+}
+
+.borderBottomCarousel {
+  border-bottom: 1px solid var(--Laranja);
+}
+
+.w_tableLooks{
+  width: 75%;
+}
+
+/*Cards*/
+
+.iconeGlobe {
+  width: 100px;
+}
+
+.cards {
+  width: 300px;
+  height: 300px;
+}
+
+.btnPlayBlack {
+  width: 40px;
+  height: 40px;
+}
+
+/*Process*/
+
+.bgEmail {
+  background-image: url("../graphics/bg_email.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  width: 100%;
+  height: 100vh;
+}
+
+.termo {
+  height: 60%;
+}
+
+.posLogoAtacama{
+  position: relative;
+  top: 12%;
+}
+
+.logo_atacama {
+  width: 125px;
+}
+
+.box_laranja {
+  width: 450px;
+}
+
+.btn_perso1 {
+  border: 0px;
+}
+
+.box_laranja_number {
+  width: 200px;
+  height: 150px;
+}
+
+.AAAA_Logo {
+  width: 66px;
+}
+
+/*Ong*/
+
+.displayDesk{
+  display: block;
+}
+
+.displayMobile{
+  display: none;
+}
+
+.btnOng {
+  text-align: -webkit-right;
+}
+
+/*Footer*/
+
+.logosFooter1 {
+  width: 250px;
+}
+
+.logosFooter2 {
+  width: 120px;
+}
+
+/*Modal*/
+
+.modal {
+  background-color: #00000095 !important;
+}
+
+.modal-content {
+  background-color: transparent !important;
+  border: 0px !important;
+}
+
+.btn-close {
+  background-image: url("../graphics/close.svg") !important;
+}
+
+.w_modal{
+  max-width: 75%!important;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+/*Pod Cast*/
+
+.reduce.fontTam3{
+  font-size: 1.3rem;
+}
+
+.w_tableLooks{
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+
+.w_container{
+  width: 75%;
+}
+
+/*Pod Cast*/
+
+.display-show2 {
+  display: none !important;
+}
+
+/*Cards Roupas*/
+
+.w_btnCarousel {
+  width: 10%;
+}
+
+/*Carousel Looks*/
+
+.w_CarousellLooks {
+  width: 100%;
+}
+
+.posNext {
+  right: 0% !important;
+}
+
+.posPrev {
+  left: 0% !important;
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+/*Cards Roupa*/
+
+.cardsRoupa {
+  width: 300px;
+}
+
+.reduce.fontPrice {
+  font-size: 3rem;
+}
+
+/*Ong*/
+
+.displayDesk{
+  display: none;
+}
+
+.displayMobile{
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*Pod Cast*/
+
+.w_perso6 {
+  width: 100%;
+}
+
+.w_perso94{
+  width: 100%;
+}
+
+  .display-show1 {
+    display: none !important;
+  }
+
+  .display-show3 {
+    display: none;
+  }
+  
+  .display-show4{
+   display: block;
+  }
+
+  /*Cards Roupa*/
+
+  .carouselEstilizado {
+    width: 92%;
+}
+
+  .w_btnCarousel {
+    width: 50%;
+  }
+
+  /*Carousel Looks*/
+
+  .posNext {
+    right: 0% !important;
+  }
+
+  .posPrev {
+    left: 0% !important;
+  }
+
+  .reduce.fontCarouselLooks1 {
+    font-size: 6rem;
+  }
+  
+  .reduce.fontCarouselLooks2 {
+    font-size: 2rem;
+    line-height: 2.9rem;
+  }
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .navPerso {
+      background-color: black;
+      height: 100vh;
+      align-content: start;
+    }
+  
+    .hPersoMenu {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    .w_container{
+      width: 95%;
+    }
+
+    /*Footer*/
+    .logosFooter1 {
+      width: 275px;
+    }
+  
+    .logosFooter2 {
+      width: 130px;
+    }
+
+  }
